@@ -96,7 +96,6 @@ Stuti Trivedi
 ## Objectives:
 
 **Currently Functional**
-
 - User can record their transactional activities
 - Can set the amazon tracker to track a particular item and predict the best time to buy it. 
 - Can manage their stock portfolio and get a prediction for a stock price/portfolio
@@ -107,62 +106,4 @@ Stuti Trivedi
 
 ---
 
-# Progress:
-
-1 August 2020 - 16 August 2020
-
-**Team formation and Mentor Selection:**
-
-- Team Member Selection.
-- Preliminary domain shortlisting
-- Approaching the mentor with related domain specialization
-
----
-15 August 2020 - 5 September 2020
-
-**Project Discussion**
-
-- Our Preliminary domain was shortlisted to a web and ml based project
-- Among many other ideas, we decided to build an application which helps a user keep track of all their financial expenditures
-
----
-5 September 2020 - 25 September 2020
-
-**Framework Training and Initial Commits**
-
-- We decided to use Django for the backend and React for the frontend
-- An appropriate period was used to learn the new framework
-- The project was divided into three modules trackers-chatbot, backend, and frontend 
-- The three sub-modules were developed to provide basic features in this period
-- Integration of the modules was absent in this period
-- This allowed us to avoid errors in integration when the codebase was turbulent
-
----
-
-25 September 2020 - 5 October 2020
-
-**Module Integration**
-
-- With basic features working in each module, we integrated the project in this period
-- This included debugging the integration errors and standardizing the codebase
-- Completed the login and authentication features
-- Integrated the chatbot with the stock and amazon trackers
-- Working Features - Transaction activities using web-form, Login Authentication Chat Bot, Stock, and Amazon Trackers
-
----
-5 October 2020 - 15 October 2020
-
-**Feature Expansion**
-
-- Most of the basic features are working in this stage
-- The chatbot, which was working standalone on the backend, was  now integrated with the frontend
-- Issued several bugs fixes in the modules and integration
-
----
-15 October 2020 - Present
-
-**Feature Expansion**
-
-- Added several features like Visualizations, Translations and text to speach
-- Issued several bugs fixes
 
