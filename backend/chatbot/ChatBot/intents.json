@@ -1,0 +1,74 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+            "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {
+            "tag": "payments_debit",
+            "patterns": ["I bought something", "Update my credits", "I spent money","earned"],
+            "responses": ["What did you buy", "What was the cost","What did you spend money on?"]
+        },
+        {
+            "tag": "payments_credit",
+            "patterns": ["I sold an item", "Add to my debits", "I gained income","sold"],
+            "responses": ["How much did you sell for", "What did you get for selling","What did you earn?"]
+        },
+        {
+            "tag": "amazon_add",
+            "patterns": ["Track an item on amazon wishlist", "Add this item to my amazon wishlist","Track this item url on amazon"],
+            "responses": ["Ok what url item to be tracked and predicted in future?","Which item are you targeting"]
+        },
+        {
+            "tag": "amazon_buy",
+            "patterns": ["Should i buy this on amazon", "Will there be a price drop on amazon","Prediction for this on amazon"],
+            "responses": ["Fetching amazon wishlist report","Predicting best time to buy this item"]
+        },
+        {
+            "tag": "stock_info",
+            "patterns": ["Fetch info on this stock", "Explain this stock information"],
+            "responses": ["Displaying info on this stock","Fetching stock info report"]
+        },
+        {
+            "tag": "stock_history",
+            "patterns": ["Display this stock history", "Describe this stock history"],
+            "responses": ["Displaying this stock's history","Fetching stock history report"]
+        },
+        {
+            "tag": "stock_buy",
+            "patterns": ["Buy this stock", "I will buy this stock","I want to buy this stock"],
+            "responses": ["Ready to buy this stock","How much do you want to buy"]
+        },
+        {
+            "tag": "stock_sell",
+            "patterns": ["Offload this stock","Trade this stock","Offload","Trade"],
+            "responses": ["Ready to sell this stock","How much do you want to sell"]
+        },
+        {
+            "tag": "stock_predict",
+            "patterns": ["Predict my stock price prediction", "What will be this stock price"],
+            "responses": ["Calculating this stock's price prediction","Fetching stock history prediction"]
+        },
+        {
+            "tag": "stock_portfolio_info",
+            "patterns": ["Fetch my portfolio situation","What is my portfolio situation"],
+            "responses": ["Calculating your stock's portfolio prediction","Fetching stock portfolio prediction"]
+        },
+        {
+            "tag": "stock_portfolio_prediction",
+            "patterns": ["Calculate my portfolio prediction", "How will my portfolio be in future","What is my portfolio prediction"],
+            "responses": ["Calculating your portfolio prediction","Fetching portfolio prediction"]
+        }
+    ]
+}
