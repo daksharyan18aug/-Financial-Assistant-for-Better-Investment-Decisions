@@ -1,0 +1,9 @@
+/backend/venv/
+/.idea/
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+/backend/backend/secret_key.py
+/backend/api/secret_key_api.py
